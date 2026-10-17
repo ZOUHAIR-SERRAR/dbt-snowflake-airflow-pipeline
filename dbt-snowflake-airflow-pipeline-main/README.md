@@ -42,6 +42,8 @@ mon_projet/
 ├── docker-compose.yaml      # airflow-init, airflow-webserver, airflow-scheduler
 └── kafka-lab/               # streaming : Kafka (KRaft) + Kafka UI, producteur, consommateur
 ```
+<img width="2752" height="1536" alt="Image_r" src="https://github.com/user-attachments/assets/16f35876-2d7c-4eda-9fee-7867d8d0b077" />
+
 
 ## Installation
 
@@ -117,4 +119,4 @@ Kafka UI : http://localhost:8085. Le consommateur lit la connexion Snowflake dan
 
 ## Auteurs
 
-Réalisé par **Hajar Oussama** et **Zouhair Serrar**, sous l'encadrement du **Prof. Karim**, ENSA Berrechid.
+Réalisé par **Zouhair Serrar** et **Hajar Oussama**  , sous l'encadrement du **Prof. Karim**, ENSA Berrechid.
