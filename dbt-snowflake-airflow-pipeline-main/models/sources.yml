@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: finance_db
+    schema: raw
+    tables:
+      - name: customers
+      - name: orders
+      - name: order_items
+      - name: products
+      # Tables alimentées en continu par le consumer Kafka (kafka-lab/consumer_snowflake.py)
+      - name: orders_stream
+      - name: order_items_stream
